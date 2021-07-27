@@ -21,7 +21,7 @@ python coordinate-digitizer.py [--input image_file | --size XXXxYYY | --cam webC
 |key|description|
 |----|----|
 |`ESC`|Exit program|
-|`p` or `<space>`|Pause / Result movie|
+|`p` or `<space>`|Pause / resume movie|
 
 ### Command line examples:  
 ```sh
