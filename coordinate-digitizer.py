@@ -43,7 +43,7 @@ def main():
         img = cv2.imread(args.input)
     elif not args.size is None:
         img_x, img_y = [int(i) for i in args.size.split('x')]
-        img = np.full((img_x , img_y, 3), 64, dtype=np.uint8)
+        img = np.full((img_y , img_x, 3), 64, dtype=np.uint8)
     elif not args.cam is None:
         movie_flag = True
         cap = cv2.VideoCapture(args.cam)
