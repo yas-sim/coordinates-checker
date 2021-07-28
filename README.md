@@ -1,4 +1,4 @@
-# X,Y Coordinate checker  
+# X,Y Coordinates checker  
 
 ### Description:  
 Small tool to pickup points in an image and display the coordinate of the points. This is very handy and useful when you want to know the coordinate of points in an image.  
