@@ -17,6 +17,7 @@ python coordinate-digitizer.py [--input image_file | --size XXXxYYY | --cam webC
 |`-s` or `--size`|Size of image (tool will create gray image with this size)|
 |`-c` or `--cam`|ID number of webCam (camera). Starting from 0|
 |`-v` or `--video`|Input video file name|  
+|`-sc` or `--scale`|Scale factor of display image. Display image size will be 1/2 when 2 is specified| 
 
 |key|description|
 |----|----|
@@ -28,5 +29,5 @@ python coordinate-digitizer.py [--input image_file | --size XXXxYYY | --cam webC
 python coordinate-digitizer.py --input input.jpg
 python coordinate-digitizer.py --video movie.mp4
 python coordinate-digitizer.py --cam 0
-python coordinate-digitizer.py --size 800x600
+python coordinate-digitizer.py --cam 0 --size 1920x1080 -sc 2
 ```
