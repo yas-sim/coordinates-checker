@@ -1,14 +1,15 @@
 # X,Y Coordinates checker  
 
 ### Description:  
-Small tool to pickup points in an image and display the coordinate of the points. This is very handy and useful when you want to know the coordinate of points in an image.  
+Small tool to pickup points in an image and display the coordinates of the points. This is very handy and useful when you want to know the coordinates of points in an image.  
 The tool has magnify function. You can pick the desired points precisely.  
+The tool can accept an image file, an movie file or a webCam as image input. You can pause the movie playback for precise point picking.  
 
 ![img](./resources/coordinate-digitizer.gif)
 
 ### How to run:  
 ```sh
-python coordinate-digitizer.py [--input image_file | --size XXXxYYY | --cam webCam_number --video movie_file]
+python coordinates-checker.py [--input image_file | --size XXXxYYY | --cam webCam_number --video movie_file]
 ```
 
 | options| description|
@@ -26,8 +27,8 @@ python coordinate-digitizer.py [--input image_file | --size XXXxYYY | --cam webC
 
 ### Command line examples:  
 ```sh
-python coordinate-digitizer.py --input input.jpg
-python coordinate-digitizer.py --video movie.mp4
-python coordinate-digitizer.py --cam 0
-python coordinate-digitizer.py --cam 0 --size 1920x1080 -sc 2
+python coordinates-checker.py --input input.jpg
+python coordinates-checker.py --video movie.mp4
+python coordinates-checker.py --cam 0
+python coordinates-checker.py --cam 0 --size 1920x1080 -sc 2
 ```
